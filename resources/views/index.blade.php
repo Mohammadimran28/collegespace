@@ -37,7 +37,7 @@
     <div class="probootstrap-page-wrapper">
       <!-- Fixed navbar -->
       
-      <div class="probootstrap-header-top">
+      {{-- <div class="probootstrap-header-top">
         <div class="container">
           <div class="row">
             <div class="col-lg-9 col-md-9 col-sm-9 probootstrap-top-quick-contact-info">
@@ -56,7 +56,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> --}}
       <nav class="navbar navbar-default probootstrap-navbar">
         <div class="container">
           <div class="navbar-header">
@@ -74,14 +74,12 @@
 
           <div id="navbar-collapse" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html">Home</a></li>
+              <li class="active"><a href="/index">Home</a></li>
               <li><a href="/courses">Courses</a></li>
-              <li><a href="teachers.html">Teachers</a></li>
-              <li><a href="events.html">Events</a></li>
-              <li><a href="news.html">News</a></li>
-                
-              </li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="/teachers">Teachers</a></li>
+              <li><a href="/events">Events</a></li>
+              {{-- <li><a href="/news">News</a></li>                       --}}
+               <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -89,7 +87,7 @@
 
       <section class="flexslider">
         <ul class="slides">
-          <li style="background-image: url(img/slider_1.jpg)" class="overlay">
+          <li style="background-image: url(img/slider18.jpg)" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -100,7 +98,7 @@
               </div>
             </div>
           </li>
-          <li style="background-image: url(img/slider_2.jpg)" class="overlay">
+          <li style="background-image: url(img/slider10.jpg)" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -112,7 +110,7 @@
             </div>
             
           </li>
-          <li style="background-image: url(img/slider_3.jpg)" class="overlay">
+          <li style="background-image: url(img/img10.jpg)" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -130,7 +128,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h2>Welcome to School of Excellence</h2>
+              <h2>Welcome to College of Excellence</h2>
             </div>
           </div>
         </div>
