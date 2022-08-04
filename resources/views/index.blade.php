@@ -139,7 +139,7 @@
                 <div class="text">
                   
                   <h3>Notes</h3>
-                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
+                  <p>Notes picked from teachers and students from respected collages and Universities</p>
                   <p><a href="#" class="btn btn-primary">Notes</a></p>
                 </div>
               </div>
@@ -153,7 +153,8 @@
                 <div class="text">
                   
                   <h3>Time Table</h3>
-                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
+                  <p> Here you will get the University Realesed. after publish it Students can download 
+                    Time Table or Schedule of exams from here.</p>
                   <p><a href="#" class="btn btn-primary">Timetable</a></p>
                 </div>
               </div>
@@ -169,7 +170,10 @@
                 <div class="text">
                   
                   <h3>Syallabus</h3>
-                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
+                  <p>Find the UGC sysllabus of all the subjects
+                  uploaded by admins
+
+                  </p>
                   <p><a href="#" class="btn btn-primary">Syallabus</a></p>
                 </div>
               </div>
