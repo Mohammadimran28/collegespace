@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 
-<!-- 
-  Theme Name: Enlight
-  Theme URL: https://probootstrap.com/enlight-free-education-responsive-bootstrap-website-template
-  Author: ProBootstrap.com
-  Author URL: https://probootstrap.com
-  License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
--->
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -60,7 +54,7 @@
                   <div class="text-uppercase probootstrap-uppercase">Featured Course</div>
                   <h3>Chemical Engineering</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p>
-                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p>
+                  <p><a href="/course-single" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p>
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider_3.jpg)">
                   <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>

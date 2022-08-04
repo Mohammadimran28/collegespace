@@ -37,7 +37,8 @@
     <div>
       @include('layout.navbar')
 
-    </div>   
+    </div>
+       
       <section class="probootstrap-section probootstrap-section-colored">
         <div class="container">
           <div class="row">

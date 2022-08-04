@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 
-<!-- 
-  Theme Name: Enlight
-  Theme URL: https://probootstrap.com/enlight-free-education-responsive-bootstrap-website-template
-  Author: ProBootstrap.com
-  Author URL: https://probootstrap.com
-  License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
--->
+
 <html lang="en">
   <head>
     <meta charset="utf-8">

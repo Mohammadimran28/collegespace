@@ -18,9 +18,11 @@ Route::get('/index', function () {
 Route::get('/', function () {
     return view('index');
 });
+
 Route::get('/courses', function () {
     return view('courses');
 });
+
 Route::get('/about', function () {
     return view('about');
 });
@@ -39,4 +41,13 @@ Route::get('/teachers', function () {
 
 Route::get('/events', function () {
     return view('events');
+});
+
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/course-single', function () {
+    return view('course-single');
 });
