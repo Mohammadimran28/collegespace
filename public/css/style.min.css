@@ -519,7 +519,7 @@ only screen and (min-resolution:2dppx) {
         position: relative;
         width: 160px;
         height: 43px;
-        background: url(../img/logo@2x.png) left 100% no-repeat;
+        background: url(../img/logo20.png) left 100% no-repeat;
         background-size: cover
     }
 }
