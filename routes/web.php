@@ -51,3 +51,12 @@ Route::get('/gallery', function () {
 Route::get('/course-single', function () {
     return view('course-single');
 });
+
+//Login 
+
+// Roe::view('auth/login', 'auth.login');
+
+
+// Route::get('/', function () {
+//     return view('demo');
+// });
