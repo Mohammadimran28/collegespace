@@ -51,3 +51,7 @@ Route::get('/gallery', function () {
 Route::get('/course-single', function () {
     return view('course-single');
 });
+
+Route::get('/notes', function () {
+    return view('notes');
+});
