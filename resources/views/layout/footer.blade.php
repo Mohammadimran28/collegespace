@@ -3,8 +3,11 @@
       <div class="row">
         <div class="col-md-4">
           <div class="probootstrap-footer-widget">
-            <h3>About The School</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident suscipit natus a cupiditate ab minus illum quaerat maxime inventore Ea consequatur consectetur hic provident dolor ab aliquam eveniet alias</p>
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Porro provident suscipit natus a cupiditate ab minus illum quaerat maxime inventore Ea
+               consequatur consectetur 
+              hic provident dolor ab aliquam eveniet alias</p>
             <h3>Social</h3>
             <ul class="probootstrap-footer-social">
               <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -20,11 +23,11 @@
           <div class="probootstrap-footer-widget">
             <h3>Links</h3>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Courses</a></li>
-              <li><a href="#">Teachers</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="/index">Home</a></li>
+              <li><a href="/course">Courses</a></li>
+              <li><a href="/teacher">Teachers</a></li>
+              <li><a href="/event">Event</a></li>
+              <li><a href="contact">Contact</a></li>
             </ul>
           </div>
         </div>
