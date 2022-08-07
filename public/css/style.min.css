@@ -75,7 +75,8 @@ ul {
 
 a {
     transition: .3s all;
-    color: #6a41ed
+    color: #26971b;
+    font-size: larger;
 }
 
 a:active,
@@ -1042,7 +1043,7 @@ only screen and (min-resolution:2dppx) {
     .probootstrap-section {
         padding: 3em 0;
         padding-bottom: 0px;
-        
+
         
     }
 
