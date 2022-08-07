@@ -43,6 +43,9 @@ Route::get('/events', function () {
     return view('events');
 });
 
+Route::get('/semester', function () {
+    return view('semester');
+});
 
 Route::get('/gallery', function () {
     return view('gallery');

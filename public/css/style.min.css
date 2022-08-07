@@ -981,7 +981,8 @@ only screen and (min-resolution:2dppx) {
 }
 
 .probootstrap-section.probootstrap-section-sm {
-    padding: 3em 0
+    padding: 3em 0;
+   
 }
 
 .probootstrap-section.probootstrap-border-top {
@@ -1039,7 +1040,10 @@ only screen and (min-resolution:2dppx) {
 
 @media screen and (max-width:768px) {
     .probootstrap-section {
-        padding: 3em 0
+        padding: 3em 0;
+        padding-bottom: 0px;
+        
+        
     }
 
     .section-heading h1 {
