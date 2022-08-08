@@ -56,6 +56,7 @@ h4 {
 
 h3 {
     font-size: 28px
+
 }
 
 h5,
@@ -486,7 +487,7 @@ a:hover {
     padding-bottom: 0 !important;
     font-size: 30px;
     text-transform: uppercase;
-    background: url(../img/logo.png) left 100% no-repeat;
+    background: url(../img/logo20.png) left 100% no-repeat;
     top: 24px;
     position: relative;
     width: 160px;
@@ -518,7 +519,7 @@ only screen and (min-resolution:2dppx) {
         position: relative;
         width: 160px;
         height: 43px;
-        background: url(../img/logo@2x.png) left 100% no-repeat;
+        background: url(../img/logo20.png) left 100% no-repeat;
         background-size: cover
     }
 }
@@ -1328,6 +1329,10 @@ only screen and (min-resolution:2dppx) {
     margin-bottom: 20px
 }
 
+
+
+
+
 .probootstrap-teacher .media img {
     border-radius: 50%;
     width: 90px;
@@ -1689,7 +1694,9 @@ only screen and (min-resolution:2dppx) {
 
 .service h3 {
     font-size: 22px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    
+    
 }
 
 .service p {
@@ -1792,7 +1799,8 @@ only screen and (min-resolution:2dppx) {
 
 .probootstrap-service-2 .text h3 {
     font-size: 20px;
-    margin: 0
+    margin: 0;
+    font-weight: bold;
 }
 
 .probootstrap-service-2 .text p {

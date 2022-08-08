@@ -26,9 +26,11 @@ Route::get('/index', function () {
 Route::get('/', function () {
     return view('index');
 });
+
 Route::get('/courses', function () {
     return view('courses');
 });
+
 Route::get('/about', function () {
     return view('about');
 });
@@ -49,6 +51,7 @@ Route::get('/events', function () {
     return view('events');
 });
 
+<<<<<<< HEAD
 //Route::get('/notes', function () {
    // $notes = Notes::all();
    //echo "<pre>";
@@ -88,3 +91,17 @@ Route::post('/exampaperform-view',[ExampaperController::class,'store'])->name('e
 Route::get('/exampaper/delete/{id}',[ExampaperController::class,'delete'])->name('exampaper.delete');
 Route::get('/exampaper/edit/{id}',[ExampaperController::class,'edit'])->name('exampaper.edit');
 }
+=======
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/course-single', function () {
+    return view('course-single');
+});
+
+Route::get('/notes', function () {
+    return view('notes');
+});
+>>>>>>> ce21c47b126f483eecf39a54a966900bfbe7c312
