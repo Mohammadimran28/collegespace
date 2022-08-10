@@ -16,7 +16,7 @@
       <div id="navbar-collapse" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="/index">Home</a></li>
-          <li><a href="/courses">Courses</a></li>
+          <li><a href="/assignment">Assignment</a></li>
           <li><a href="/teachers">Teachers</a></li>
           <li><a href="/events">Events</a></li>
           {{-- <li><a href="/news">News</a></li>                       --}}

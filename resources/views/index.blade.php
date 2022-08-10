@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 
-
 <html lang="en">
   <head>
-  
-    <div>
+      <div>
       @include('layout.header')
-
-
     </div>
-
   </head>
+
   <body>
 
     <div class="probootstrap-search" id="probootstrap-search">
@@ -19,14 +15,12 @@
         <input type="search" name="s" id="search" placeholder="Search a keyword and hit enter...">
       </form>
     </div>
-    
-   
+  
       
     <div>
       @include('layout.navbar')
 
     </div>
-
 
       <section class="flexslider">
         <ul class="slides">

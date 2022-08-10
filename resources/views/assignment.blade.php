@@ -25,7 +25,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h1>Our Courses</h1>
+              <h1>All Importent Assignments</h1>
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
                   <h3>Application Design</h3>
                   <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
-                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p>
+                  <p><a href="/course-single" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p>
                 </div>
               </div>
 

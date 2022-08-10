@@ -19,8 +19,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/courses', function () {
-    return view('courses');
+Route::get('/assignment', function () {
+    return view('assignment');
 });
 
 Route::get('/about', function () {
