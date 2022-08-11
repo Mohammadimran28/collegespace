@@ -39,11 +39,11 @@
                 <div class="probootstrap-text probootstrap-animate">
                   <h3>We Provied Certified Notes By Admin</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p>
-                  <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                 
                 </div>
-                <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider_3.jpg)">
+                {{-- <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider_3.jpg)">
                   <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
-                </div>
+                </div> --}}
               </div>
             </div>
           </div>

@@ -58,3 +58,7 @@ Route::get('/course-single', function () {
 Route::get('/notes', function () {
     return view('notes');
 });
+
+Route::get('/login', function () {
+    return view('auth.login');
+});
