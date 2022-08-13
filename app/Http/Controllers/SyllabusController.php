@@ -17,17 +17,14 @@ class SyllabusController extends Controller
         echo "<pre>";
         print_r($request->all());
         $syllabus = new syllabus;
+        $syllabus->course = $request['course'];
         $syllabus->semester = $request['semester'];
         $syllabus->subject = $request['subject'];
-        $syllabus->syllabusfile = $request['syllabusfile'];
-
         $fileName = $request->file('syllabusfile')->getClientOriginalName();
         $fileName = $request->file('syllabusfile')->storeAs('public/uploads/syllabus',$fileName);
-        //$fullFileName = $req->file('syllabusfile')->getClientOriginalName();
-        //$extension = $file->getClientOriginalExtension();
-       // Log::info($fullfilename['0'], $extension['0']);
+        $syllabus->syllabusfile = $fileName;
         $syllabus->save();
-        return redirect('/syllabusform-view');
+        return redirect('/syllabusform-view')->with(['success'=>'saved sucessfully!!']);
     }
 
     public function view()
@@ -43,9 +40,9 @@ class SyllabusController extends Controller
         $syllabus = Syllabus::where('id' ,$id);
         if($syllabus != null)
            { $syllabus->delete(); 
-        return redirect('syllabusform-view')->with(['msg'=> 'Deleted Succesfully!!']);
+        return redirect('syllabusform-view')->with(['success'=> 'Deleted Succesfully!!']);
     }
-        return redirect('syllabusform-view')->with(['message'=>'Invalid!!']);
+        return redirect('syllabusform-view')->with(['success'=>'Invalid!!']);
     }
 
      public function edit($id)

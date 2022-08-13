@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('syllabus', function (Blueprint $table) {
             $table->id();
+            $table->char('course',20);
             $table->string('semester',200);
             $table->string('subject',200);
             $table->string('syllabus file');

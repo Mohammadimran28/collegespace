@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 use App\Models\Notes;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\URL;
+use Illuminate\Auth\Access\Response;
+use Illuminate\Support\Facades\storage;
 
 class NotesController extends Controller
 {
@@ -17,41 +18,37 @@ class NotesController extends Controller
         echo "<pre>";
         print_r($request->all());
         $notes = new notes;
+        $notes->course = $request['course'];
         $notes->semester = $request['semester'];
         $notes->subject = $request['subject'];
-        
-
         $fileName = $request->file('notesfile')->getClientOriginalName();
         $fileName = $request->file('notesfile')->storeAs('public/uploads/notes',$fileName);
-        //$fullFileName = $req->file('notesfile')->getClientOriginalName();
-        //$extension = $file->getClientOriginalExtension();
-       // Log::info($fullfilename['0'], $extension['0']);
-       $notes->notesfile = $fileName;
+        $notes->notesfile = $fileName;
         $notes->save();
-        return redirect('/notesform/view');
+        return redirect('/notesform/view')->with(['success'=>'saved sucessfully!!']);
     }
     
     public function view()
     {
         $notes = Notes::all();
-            $data = compact('notes');
+        $data = compact('notes');
         return view('notes-view')->with($data);
     }
 
-    public function delete($id)
+    public function delete($id)   
     {
         $notes = Notes::where('id' ,$id);
         if($notes != null)
            { $notes->delete(); 
         return redirect('notesform/view')->with('success', 'Deleted Succesfully!!');
     }
-        return redirect('notesform/view')->with(['message'=>'Invalid!!']);
+        return redirect('notesform/view')->with(['success'=>'Invalid!!']);
     }
 
      public function edit($id)
      {
          
-        return redirect ('notesupdate');
+         return redirect ('notesupdate');
      }
     // {   
     //     // dd($id);
@@ -78,4 +75,30 @@ class NotesController extends Controller
         return redirect('notesupdate');
     }
     
+
+
+
+
+    
+    public function show()
+    {
+        $notes=Notes::all();
+        return view('user-notesview',compact('notes'));
+    }
+
+    public function download($notesfile)
+    {
+        
+        return response()->download(public_path('app\public\uploads\notes'.$notesfile))->
+        header('Content-Type','image/pdf/jpeg/doc/txt');
+    }
+
+    
+
+    // //public function get($fileName)
+    // //{
+    // //    $notes=Notes::find($fileName);
+        
+    //     return view('user-viewnotesview',compact('notes'));
+    // }
 }

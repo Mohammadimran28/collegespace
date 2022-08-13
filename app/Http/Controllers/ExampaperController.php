@@ -16,19 +16,16 @@ class ExampaperController extends Controller
         echo "<pre>";
         print_r($request->all());
         $exampaper = new Exampaper;
+        $exampaper->course = $request['course'];
         $exampaper->semester = $request['semester'];
         $exampaper->year = $request['year'];
         $exampaper->subject = $request['subject'];
         $exampaper->paper_Code = $request['paper_Code'];
-        $exampaper->exampaper_file = $request['exampaper_file'];
-
         $fileName = $request->file('exampaper_file')->getClientOriginalName();
         $fileName = $request->file('exampaper_file')->storeAs('public/uploads/exampaper',$fileName);
-        //$fullFileName = $req->file('exampaperfile')->getClientOriginalName();
-        //$extension = $file->getClientOriginalExtension();
-       // Log::info($fullfilename['0'], $extension['0']);
+        $exampaper->exampaper_file = $fileName;
         $exampaper->save();
-        return redirect('/exampaperform-view');
+        return redirect('/exampaperform-view')->with(['success'=>'saved sucessfully!!']);
     }
 
     public function view()
@@ -44,9 +41,9 @@ class ExampaperController extends Controller
         $exampaper = Exampaper::where('id' ,$id);
         if($exampaper != null)
            { $exampaper->delete(); 
-        return redirect('exampaperform-view')->with(['msg'=> 'Deleted Succesfully!!']);
+        return redirect('exampaperform-view')->with(['success'=> 'Deleted Succesfully!!']);
     }
-        return redirect('exampaperform-view')->with(['message'=>'Invalid!!']);
+        return redirect('exampaperform-view')->with(['success'=>'Invalid!!']);
     }
 
      public function edit($id)

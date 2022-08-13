@@ -51,7 +51,6 @@ Route::get('/events', function () {
     return view('events');
 });
 
-<<<<<<< HEAD
 //Route::get('/notes', function () {
    // $notes = Notes::all();
    //echo "<pre>";
@@ -64,8 +63,11 @@ Route::get('/notesform',[NotesController::class,'notesform'])->name('notes.form'
 Route::get('/notesform/view',[NotesController::class,'view'])->name('notes.view');
 Route::post('/notesform/view',[NotesController::class,'store'])->name('notes.store');
 Route::get('/notes/delete/{id}',[NotesController::class,'delete'])->name('notes.delete');
-Route::get('/notes/edit/{id}/notesupdate',[NotesController::class,'edit'])->name('notes.edit');
+Route::get('/notes/edit/{id}',[NotesController::class,'edit'])->name('notes.edit');
 Route::get('/notes/update/{id}',[NotesController::class,'update'])->name('notes.update');
+Route::get('/notes.show', [NotesController::class,'show'])->name('notes.show');
+Route::get('/download{notesfile}', [NotesController::class,'download'])->name('notes.download');
+//Route::post('/get/{fileNam}', [NotesController::class,'get'])->name('notes.get');
 }
 
 {
@@ -91,7 +93,6 @@ Route::post('/exampaperform-view',[ExampaperController::class,'store'])->name('e
 Route::get('/exampaper/delete/{id}',[ExampaperController::class,'delete'])->name('exampaper.delete');
 Route::get('/exampaper/edit/{id}',[ExampaperController::class,'edit'])->name('exampaper.edit');
 }
-=======
 
 Route::get('/gallery', function () {
     return view('gallery');
@@ -104,4 +105,3 @@ Route::get('/course-single', function () {
 Route::get('/notes', function () {
     return view('notes');
 });
->>>>>>> ce21c47b126f483eecf39a54a966900bfbe7c312

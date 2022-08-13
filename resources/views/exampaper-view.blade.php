@@ -13,11 +13,15 @@
   <div class="container">
   <a href="{{route('exampaper.form')}}"><button class="btn btn-primary d-inline-block m-2 float-right">Add New Record</button>
             </a>
-                        
+            @if($message = Session::get('success'))  
+                      <div class="alert alert-success">
+                      <p>{{$message}}</p>
+                      </div>
+                      @endif          
             <table class="table" border="3" >
                 <thead>
                     <tr>
-                   
+                    <th>course</th>
                         <th>semester</th>
                         <th>year</th>
                         <th>subject</th>
@@ -29,6 +33,7 @@
                 <tbody>
                 @foreach ($exampaper as $exampaper)
                     <tr>
+                    <td>{{$exampaper->course}}</td>
                             <td>{{$exampaper->semester}}</td>
                             <td>{{$exampaper->year}}</td>
                             <td>{{$exampaper->subject}}</td>

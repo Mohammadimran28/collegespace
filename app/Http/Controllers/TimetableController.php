@@ -16,17 +16,14 @@ class TimetableController extends Controller
         echo "<pre>";
         print_r($request->all());
         $timetable = new Timetable;
+        $timetable->course = $request['course'];
         $timetable->semester = $request['semester'];
-        $timetable->timetablefile = $request['timetablefile'];
         $timetable->date = $request['date'];
-
         $fileName = $request->file('timetablefile')->getClientOriginalName();
         $fileName = $request->file('timetablefile')->storeAs('public/uploads/timetable',$fileName);
-        //$fullFileName = $req->file('timetablefile')->getClientOriginalName();
-        //$extension = $file->getClientOriginalExtension();
-       // Log::info($fullfilename['0'], $extension['0']);
+        $timetable->timetablefile = $fileName;
         $timetable->save();
-        return redirect('/timetableform-view');
+        return redirect('/timetableform-view')->with(['success'=>'saved sucessfully!!']);
     }
 
     public function view()
@@ -42,9 +39,9 @@ class TimetableController extends Controller
         $timetable = Timetable::where('id' ,$id);
         if($timetable != null)
            { $timetable->delete(); 
-        return redirect('timetableform-view')->with(['msg'=> 'Deleted Succesfully!!']);
+        return redirect('timetableform-view')->with(['success'=> 'Deleted Succesfully!!']);
     }
-        return redirect('timetableform-view')->with(['message'=>'Invalid!!']);
+        return redirect('timetableform-view')->with(['success'=>'Invalid!!']);
     }
 
      public function edit($id)

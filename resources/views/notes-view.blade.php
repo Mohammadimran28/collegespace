@@ -21,7 +21,7 @@
             <table class="table" border="3" >
                 <thead>
                     <tr>
-                   
+                        <th>course</th>
                         <th>semester</th>
                         <th>subject</th>
                         <th>notesfile</th>
@@ -31,14 +31,15 @@
                 <tbody>
                 @foreach ($notes as $notes)
                     <tr>
-                            <td>{{$notes->semester}}</td>
+                        <td>{{$notes->course}}</td>
+                        <td>{{$notes->semester}}</td>
                         <td>{{$notes->subject}}</td>
                         <td>{{$notes->notesfile}}</td>
                         <td>
                         <a href="{{route('notes.delete',['id' => $notes->id])}}"><button class="btn btn-danger">Delete</button>
                         </a>
                         <a href="{{route('notes.edit',['id' => $notes->id])}}"><button class="btn btn-primary">Edit</button>
-                        
+                        </a>
                         </td>
                     </tr>
                    @endforeach

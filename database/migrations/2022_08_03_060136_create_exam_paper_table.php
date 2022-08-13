@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('exam_paper', function (Blueprint $table) {
             $table->id();
+            $table->char('course',20);
             $table->string('semester',50); 
             $table->string('year',30); 
             $table->string('subject',80); 

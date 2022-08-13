@@ -21,13 +21,40 @@
 <form action="{{route('timetable.store')}}" method="post" enctype="multipart/form-data">
 @csrf
 <div class="container mt-4 card p-1  bg-white">
+@if($message = Session::get('success'))  
+                      <div class="alert alert-success">
+                      <p>{{$message}}</p>
+                      </div>
+                      @endif
 <h3 class="text-center text-primary">
         Upload Time-Table
         </h3>
         <div class="row">
         <div class="form-group col-md-6 required">
+        <label for="">Course:</label>
+        <select type="text" name="course" id=""  class="form-control" >
+                    <option value="">Select Course</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    </select>
+        <span class="text-danger">
+        @error('subject')
+        {{$message}}
+        @enderror
+        </span>
+        </div>
+
+        <div class="form-group col-md-6 required">
         <label for="">Semester:</label>
-        <input type="text" name="semester" id=""  class="form-control" />
+        <select type="text" name="semester" id=""  class="form-control" >
+                    <option value="">Select semester</option>
+                    <option value="{{1}}">{{1}}</option>
+                    <option value="{{2}}">{{2}}</option>
+                    <option value="{{3}}">{{3}}</option>
+                    <option value="{{4}}">{{4}}</option>
+                    <option value="{{5}}">{{5}}</option>
+                    <option value="{{6}}">{{6}}</option>
+                     </select>    
         <span class="text-danger">
         @error('semester')
         {{$message}}
@@ -36,7 +63,7 @@
         </div>
 
 
-        <div class="form-group col-md-5 required">
+        <div class="form-group col-md-6 required">
         <label for="">time-table file:</label>
         <input type="file" name="timetablefile" id="" class="form-control"/>
         <span class="text-danger">

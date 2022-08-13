@@ -15,7 +15,8 @@ return new class extends Migration
     {
         Schema::create('notes', function (Blueprint $table) {
             $table->id();
-            $table->string('semester',200);
+            $table->char('course',50);
+            $table->char('semester',200);
             $table->string('subject',200);
             $table->string('notesfile');
             $table->timestamps();

@@ -13,11 +13,15 @@
   <div class="container">
   <a href="{{route('timetable.form')}}"><button class="btn btn-primary d-inline-block m-2 float-right">Add New Record</button>
             </a>
-                        
+            @if($message = Session::get('success'))  
+                      <div class="alert alert-success">
+                      <p>{{$message}}</p>
+                      </div>
+                      @endif
             <table class="table" border="3" >
                 <thead>
                     <tr>
-                   
+                    <th>course</th>
                         <th>semester</th>
                         <th>timetablefile</th>
                         <th>date</th>
@@ -27,6 +31,7 @@
                 <tbody>
                 @foreach ($timetable as $timetable)
                     <tr>
+                    <td>{{$timetable->course}}</td>
                             <td>{{$timetable->semester}}</td>
                         <td>{{$timetable->timetablefile}}</td>
                         <td>{{$timetable->date}}</td>

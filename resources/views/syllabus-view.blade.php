@@ -13,11 +13,15 @@
   <div class="container">
   <a href="{{route('syllabus.form')}}"><button class="btn btn-primary d-inline-block m-2 float-right">Add New Record</button>
             </a>
-                        
+            @if($message = Session::get('success'))  
+                      <div class="alert alert-success">
+                      <p>{{$message}}</p>
+                      </div>
+                      @endif  
             <table class="table" border="3" >
                 <thead>
                     <tr>
-                   
+                    <th>course</th>
                         <th>semester</th>
                         <th>subject</th>
                         <th>Syllabusfile</th>
@@ -27,6 +31,7 @@
                 <tbody>
                 @foreach ($syllabus as $syllabus)
                     <tr>
+                    <td>{{$syllabus->course}}</td>
                             <td>{{$syllabus->semester}}</td>
                         <td>{{$syllabus->subject}}</td>
                         <td>{{$syllabus->syllabusfile}}</td>
