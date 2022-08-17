@@ -105,3 +105,20 @@ Route::get('/course-single', function () {
 Route::get('/notes', function () {
     return view('notes');
 });
+
+//login
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+
+// Admin
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+
+
+
