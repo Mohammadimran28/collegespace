@@ -100,8 +100,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-              <h2>Our Features</h2>
-              <p class="lead">Sed a repudiandae impedit voluptate nam Deleniti dignissimos perspiciatis nostrum porro nesciunt</p>
+              <h2>Our Features</h2>I liked it that I took this course online because I was able to do everything in my own time and it was easier for me to complete all the assignments. The course contents are precise and my tutor is knowledgeable.
+              <p class="lead"></p>
             </div>
           </div>
           <!-- END row -->
@@ -243,157 +243,7 @@
      
       {{-- highlight --}}
 
-      <section class="probootstrap-section probootstrap-section-colored probootstrap-bg probootstrap-custom-heading probootstrap-tab-section" style="background-image: url(img/slider_2.jpg)">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center section-heading probootstrap-animate">
-              <h2 class="mb0">Highlights</h2>
-            </div>
-          </div>
-        </div>
-        <div class="probootstrap-tab-style-1">
-          <ul class="nav nav-tabs probootstrap-center probootstrap-tabs no-border">
-            <li class="active"><a data-toggle="tab" href="#featured-news">Featured News</a></li>
-            <li><a data-toggle="tab" href="#upcoming-events">Upcoming Events</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="probootstrap-section probootstrap-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              
-              <div class="tab-content">
-
-                <div id="featured-news" class="tab-pane fade in active">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="owl-carousel" id="owl1">
-                        <div class="item">
-                          <a href="#" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Tempora consectetur unde nisi</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, ut.</p>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                        <div class="item">
-                          <a href="#" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img_sm_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Tempora consectetur unde nisi</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, officia.</p>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                        <div class="item">
-                          <a href="#" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img_sm_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Tempora consectetur unde nisi</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, dolores.</p>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                        <div class="item">
-                          <a href="#" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Tempora consectetur unde nisi</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, earum.</p>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              
-                              
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- END row -->
-                  <div class="row">
-                    <div class="col-md-12 text-center">
-                      <p><a href="#" class="btn btn-primary">View all news</a></p>  
-                    </div>
-                  </div>
-                </div>
-                <div id="upcoming-events" class="tab-pane fade">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="owl-carousel" id="owl2">
-                        <div class="item">
-                          <a href="#" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Tempora consectetur unde nisi</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                        <div class="item">
-                          <a href="#" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img_sm_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Tempora consectetur unde nisi</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                        <div class="item">
-                          <a href="#" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img_sm_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Tempora consectetur unde nisi</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                        <div class="item">
-                          <a href="#" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Tempora consectetur unde nisi</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 text-center">
-                      <p><a href="#" class="btn btn-primary">View all events</a></p>  
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            
-            </div>
-          </div>
-        </div>
-      </section>
-
+     
       
       
       
@@ -403,7 +253,7 @@
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
               <h2>Student Reviews</h2>
-              <p class="lead">Sed a repudiandae impedit voluptate nam Deleniti dignissimos perspiciatis nostrum porro nesciunt</p>
+              <p class="lead">Loved every minue studying and gained great knowledge. Looking forward to life as a life coach and being part of changing lives for the better.</p>
             </div>
           </div>
           <!-- END row -->
@@ -416,7 +266,7 @@
                     <figure>
                       <img src="img/person_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
                     </figure>
-                    <blockquote class="quote">&ldquo;Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained.&rdquo; <cite class="author"> &mdash; <span>Mike Fisher</span></cite></blockquote>
+                    <blockquote class="quote">&ldquo;All notes were easy to read, and I found the homework challenging, but not impossible. I enjoyed researching! Very good. Lots of feedback!&rdquo; <cite class="author"> &mdash; <span>Mohit</span></cite></blockquote>
                   </div>
 
                 </div>
@@ -425,7 +275,7 @@
                     <figure>
                       <img src="img/person_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
                     </figure>
-                    <blockquote class="quote">&ldquo;Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.&rdquo; <cite class="author"> &mdash;<span>Jorge Smith</span></cite></blockquote>
+                    <blockquote class="quote">&ldquo;be honest you cannot beat the services or the people that I have dealt with. I loved the business management course. I rely on what I have learnt in my course often.&rdquo; <cite class="author"> &mdash;<span> Ramesh</span></cite></blockquote>
                   </div>
                 </div>
                 <div class="item">
@@ -433,7 +283,9 @@
                     <figure>
                       <img src="img/person_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
                     </figure>
-                    <blockquote class="quote">&ldquo;I think design would be better if designers were much more skeptical about its applications. If you believe in the potency of your craft, where you choose to dole it out is not something to take lightly.&rdquo; <cite class="author">&mdash; <span>Brandon White</span></cite></blockquote>
+                    <blockquote class="quote">&ldquo;I would like to thank you for the helpful guidance pro
+                      vided by the tutorial department. I am happy with my tutor who is very efficient and s
+                      hared his knowledge and experience with me.&rdquo; <cite class="author">&mdash; <span>Mohammed</span></cite></blockquote>
                   </div>
                 </div>
                 
@@ -532,7 +384,7 @@
     <script src="js/scripts.min.js"></script>
     <script src="js/main.min.js"></script>
     <script src="js/custom.js"></script>
-    {{-- <script src="js/tawk.js"></script> --}}
+    <script src="js/tawk.js"></script>
     
 
   </body>
