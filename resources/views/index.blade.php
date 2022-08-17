@@ -143,7 +143,7 @@
                   
                   <h3>Notes</h3>
                   <p>Notes picked from teachers and students  collages and Universities</p>
-                  <p><a href="#" class="btn btn-primary">Notes</a></p>
+                  <p><a href="notes.show" class="btn btn-primary">Notes</a></p>
                 </div>
               </div>
 
@@ -177,7 +177,7 @@
                   uploaded by admins
 
                   </p>
-                  <p><a href="#" class="btn btn-primary">Syallabus</a></p>
+                  <p><a href="/syllabus" class="btn btn-primary">Syallabus</a></p>
                 </div>
               </div>
 
