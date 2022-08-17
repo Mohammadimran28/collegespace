@@ -3,8 +3,11 @@
       <div class="row">
         <div class="col-md-4">
           <div class="probootstrap-footer-widget">
-            <h3>About The School</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident suscipit natus a cupiditate ab minus illum quaerat maxime inventore Ea consequatur consectetur hic provident dolor ab aliquam eveniet alias</p>
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Porro provident suscipit natus a cupiditate ab minus illum quaerat maxime inventore Ea
+               consequatur consectetur 
+              hic provident dolor ab aliquam eveniet alias</p>
             <h3>Social</h3>
             <ul class="probootstrap-footer-social">
               <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -20,11 +23,11 @@
           <div class="probootstrap-footer-widget">
             <h3>Links</h3>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Courses</a></li>
-              <li><a href="#">Teachers</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="/index">Home</a></li>
+              <li><a href="/course">Courses</a></li>
+              <li><a href="/teacher">Teachers</a></li>
+              <li><a href="/event">Event</a></li>
+              <li><a href="contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -32,8 +35,8 @@
           <div class="probootstrap-footer-widget">
             <h3>Contact Info</h3>
             <ul class="probootstrap-contact-info">
-              <li><i class="icon-location2"></i> <span>198 West 21th Street, Suite 721 New York NY 10016</span></li>
-              <li><i class="icon-mail"></i><span>info@domain.com</span></li>
+              <li><i class="icon-location2"></i> <span>University College of Science </span></li>
+              <li><i class="icon-mail"></i><span>help@collegespace.com</span></li>
               <li><i class="icon-phone2"></i><span>+123 456 7890</span></li>
             </ul>
           </div>
@@ -48,7 +51,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 text-left">
-            <p>&copy; 2017 <a href="https://probootstrap.com/">ProBootstrap:Enlight</a>. All Rights Reserved. Designed &amp; Developed with <i class="icon icon-heart"></i> by <a href="https://probootstrap.com/">ProBootstrap.com</a></p>
+            <p>&copy; 2022 <a href="#">CollegeSpace</a>. All Rights Reserved. Designed &amp; Developed with <i class="icon icon-heart"></i> 
+             </p>
           </div>
           <div class="col-md-4 probootstrap-back-to-top">
             <p><a href="#" class="js-backtotop">Back to top <i class="icon-arrow-long-up"></i></a></p>
