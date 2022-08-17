@@ -106,6 +106,7 @@ Route::get('/notes', function () {
     return view('notes');
 });
 
+
 Route::get('/syllabus', function () {
     return view('syllabus');
 });
@@ -117,3 +118,21 @@ Route::get('/exampaper', function () {
 Route::get('/timetable', function () {
     return view('timetable');
 });
+
+
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+
+
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+
+
+
+
