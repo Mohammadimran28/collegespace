@@ -55,7 +55,10 @@ h4 {
 }
 
 h3 {
-    font-size: 28px
+    font-size: 28px;
+    font-weight: bold;
+    color: #18900d;
+    
 
 }
 
@@ -72,7 +75,8 @@ ul {
 
 a {
     transition: .3s all;
-    color: #6a41ed
+    color: #26971b;
+    font-size: larger;
 }
 
 a:active,
@@ -978,7 +982,8 @@ only screen and (min-resolution:2dppx) {
 }
 
 .probootstrap-section.probootstrap-section-sm {
-    padding: 3em 0
+    padding: 3em 0;
+   
 }
 
 .probootstrap-section.probootstrap-border-top {
@@ -1036,7 +1041,10 @@ only screen and (min-resolution:2dppx) {
 
 @media screen and (max-width:768px) {
     .probootstrap-section {
-        padding: 3em 0
+        padding: 3em 0;
+        padding-bottom: 0px;
+
+        
     }
 
     .section-heading h1 {

@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 
-
 <html lang="en">
   <head>
-  
-    <div>
+      <div>
       @include('layout.header')
-
-
     </div>
-
   </head>
+
   <body>
 
     <div class="probootstrap-search" id="probootstrap-search">
@@ -19,35 +15,12 @@
         <input type="search" name="s" id="search" placeholder="Search a keyword and hit enter...">
       </form>
     </div>
-    
-    <div class="probootstrap-page-wrapper">
-      <!-- Fixed navbar -->
+  
       
-      {{-- <div class="probootstrap-header-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-9 col-md-9 col-sm-9 probootstrap-top-quick-contact-info">
-              <span><i class="icon-location2"></i>Brooklyn, NY 10036, United States</span>
-              <span><i class="icon-phone2"></i>+1-123-456-7890</span>
-              <span><i class="icon-mail"></i>info@probootstrap.com</span>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 probootstrap-top-social">
-              <ul>
-                <li><a href="#"><i class="icon-twitter"></i></a></li>
-                <li><a href="#"><i class="icon-facebook2"></i></a></li>
-                <li><a href="#"><i class="icon-instagram2"></i></a></li>
-                <li><a href="#"><i class="icon-youtube"></i></a></li>
-                <li><a href="#" class="probootstrap-search-icon js-probootstrap-search"><i class="icon-search"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> --}}
     <div>
       @include('layout.navbar')
 
     </div>
-
 
       <section class="flexslider">
         <ul class="slides">
@@ -106,12 +79,13 @@
             <div class="col-md-12">
               <div class="probootstrap-flex-block">
                 <div class="probootstrap-text probootstrap-animate">
-                  <h3>About School</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p>
-                  <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                  <h3>About Us</h3>
+                  <p>we provide every single piece of information about the student query     
+                    (exam schedules, admission schedule, admission merit lists, News, Events, and the notification slide for every day update ) in simple UI design.</p>
+                  <p><a href="#" class="js-backtotop btn btn-primary">Learn More</a></p>
                  
                 </div>
-                 <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider10.jpg)">
+                 <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/col3.jpg)">
                   <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
                 </div>
               </div>
@@ -143,7 +117,11 @@
                   
                   <h3>Notes</h3>
                   <p>Notes picked from teachers and students  collages and Universities</p>
+<<<<<<< HEAD
                   <p><a href="notes.show" class="btn btn-primary">Notes</a></p>
+=======
+                  <p><a href="/notes" class="btn btn-primary">Notes</a></p>
+>>>>>>> origin/editing
                 </div>
               </div>
 
@@ -191,7 +169,7 @@
                 <div class="text">
                   
                   <h3>Exam Paper</h3>
-                  <p>Find the previous year papers.Here you will get the University Realesed.</p>
+                  <p>Find the previous year papers.Here you will get the University Realesed. will be provide</p>
                   <p><a href="#" class="btn btn-primary">Exam paper</a></p>
                 </div>
               </div>
@@ -428,7 +406,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-              <h2>Alumni Testimonial</h2>
+              <h2>Student Reviews</h2>
               <p class="lead">Sed a repudiandae impedit voluptate nam Deleniti dignissimos perspiciatis nostrum porro nesciunt</p>
             </div>
           </div>
@@ -474,8 +452,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-              <h2>Why Choose Enlight School</h2>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+              <h2>Why Choose CollegeSpace</h2>
+              <p class="lead">We only focused on helping innocent students with there doubts.</p>
             </div>
           </div>
           <div class="row">
@@ -483,21 +461,21 @@
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Consectetur Adipisicing</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Providing Note</h3>
+                  <p>Notes picked from teachers and students from respected collages and Universities</p>
                 </div>  
               </div>
               <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
+                {{-- <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Aliquid Dolorum Saepe</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
-                </div>
+                  <h3>Relivent Syallabus</h3>
+                  <p>very structure form of Sysllabus uploaded by teachers and admins </p>
+                </div> --}}
               </div>
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Eveniet Tempora Anisi</h3>
+                  <h3>Student Support </h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
                 </div>
               </div>
@@ -506,7 +484,7 @@
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Laboriosam Quod Dignissimos</h3>
+                  <h3>Time Table</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
                 </div>  
               </div>
@@ -514,17 +492,17 @@
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Asperiores Maxime Modi</h3>
+                  <h3>Exam Paper</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
                 </div>
               </div>
               
               <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
+                {{-- <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
                   <h3>Libero Maxime Molestiae</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
-                </div>
+                </div> --}}
               </div>
 
             </div>
@@ -558,6 +536,8 @@
     <script src="js/scripts.min.js"></script>
     <script src="js/main.min.js"></script>
     <script src="js/custom.js"></script>
+    {{-- <script src="js/tawk.js"></script> --}}
+    
 
   </body>
 </html>
