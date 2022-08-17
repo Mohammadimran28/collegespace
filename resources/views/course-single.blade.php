@@ -65,10 +65,28 @@
                 </div>
                 <div class="col-md-7 col-md-push-1  probootstrap-animate" id="probootstrap-content">
                   <h2>Description</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime rerum possimus maiores, natus fugiat quibusdam dolorem. Dolore, odit ipsum, commodi distinctio repellendus vel tempore accusamus ea assumenda totam aut tempora. Illum sed harum, doloremque magnam nostrum. Fuga tempora corrupti unde ratione, placeat voluptates dicta asperiores est, ad voluptatem dolor, delectus sapiente voluptatum! Rerum magnam ducimus voluptas dolorum consectetur ex facilis quaerat sapiente eaque consequuntur perspiciatis nesciunt tenetur quibusdam corrupti voluptates consequatur repudiandae, quisquam aperiam veniam. Architecto voluptas blanditiis provident modi cumque a eius nam dignissimos numquam ducimus earum odit ipsam, reiciendis assumenda id quasi dolore, totam impedit molestias? Alias, ipsa!</p>
-                  <p>Velit natus alias eligendi architecto rem, itaque distinctio? Excepturi obcaecati fuga ratione. Dolore in ipsam rem ullam nemo error aperiam dolores eius, doloremque blanditiis placeat fugiat libero id atque, recusandae, voluptate laboriosam, distinctio omnis ab. Eius obcaecati, laudantium ex voluptatum voluptas, cum vitae molestiae quam est omnis nulla, quis velit? Esse natus tempore molestias deserunt, tempora illum labore, fuga animi totam dolore doloribus doloremque laudantium velit distinctio, non cumque dolorem delectus quia quibusdam? Amet, consectetur. Reprehenderit unde, eveniet temporibus, quae possimus magni. Dolore quo eveniet, distinctio dicta quisquam? Aliquid libero dolore provident, beatae odit facilis quasi dolorum sit ad minus!</p>
-                  <p>Tenetur, soluta natus porro, cumque vitae, iste accusamus beatae repudiandae quidem magnam sunt, nihil reprehenderit facere eveniet non sint aliquid. Ipsam totam nostrum, modi veritatis quidem maiores dolor minima incidunt non ratione qui quas, quasi aut sit obcaecati iure. Corporis, rem? Reprehenderit sequi, tenetur, libero nobis beatae ut doloremque obcaecati ipsa? Itaque numquam ratione et veniam porro magnam expedita ad laboriosam dolorum debitis omnis mollitia id eum minus necessitatibus ipsam consequuntur sed tempora assumenda, repudiandae culpa atque? Ad ut porro praesentium, earum voluptatum maxime, deserunt, omnis dolorem veniam cumque et officia veritatis, nam perferendis ex facilis sit sapiente at accusamus?</p>
-                  <p><a href="#" class="btn btn-primary">Enroll with this course now</a> <span class="enrolled-count">2,928 students enrolled</span></p>
+                  <p>
+                   <p> Bca Computer Science: Introduction</p>
+                    <p> Sc Computer Science is typically a 3-year long program. B Sc Computer Science syllabus covers all aspects of computers right from the basic fundamentals of computers.</p>
+                    
+                    <p> fundamentals include</p>
+                    
+                    All functions of computing devices
+                    How they operate through high level/low level/ assembly languages
+                    High-level languages (HLLs) are the ones that programmers use for coding in modern times. C++, Java, Python, Perl, Ruby, etc are all examples. Anyone or a combination of these can be used to build software.
+                    All HLLs are broken down into assembly languages first. These are simplified versions of the HLLs. Assembly language uses both alphabets and numbers and some special characters like # (hash) \ (backslash)etc.
+                    Assembly language codes are further broken down into machine code.
+                    <p>
+                    Machine language is the only one the machines understand. All computers in the world operate on machine language. Machine language is a sequence of 1’s and 0’s only, no characters, no letters and no other number.
+                    So the HLLs and assembly codes have to be translated to machine language and then the computer does what the code asks it to do. This is called the ‘execution of the code’.
+                    For an example, if you want to print “Hello World” on your computer screen, you write the program in C++ (suppose), then the computer converts the program (of 2/3 lines) to assembly language (simplified version; several lines) which is then translated into a string of 1’s and 0’s (machine code; many more lines). After this, the computer actually prints “Hello World” on the screen (execution of the print command in this case)! All of this is done in less than half a second.
+                    So the first few stages are just about translation from one language to the other. The translation is also done by the computer itself but it does not perform the ‘printing’ function (in this case).
+                    Assembly and Machine language systems, hardware-level processing are hardly given emphasis at undergraduate degree level syllabi across colleges.</p>
+                     Programming with HLLs and other associated technologies receive maximum proportion.
+                    Discrete mathematics – involves higher mathematics, calculus and statistics mostly, Class 11-12 level onwards
+                    Electronics and Semiconductor Physics: this deals with how the electronic circuits, the memory of a computer, etc works after the HLL code is converted to machine code or object code (also called binary code). The final execution of the code is carried out by the electronic chips inside the memory of a computer.
+                    Most of the course is taught using popular in-demand programming languages like C, C++ and JAVA.</p>
+                  <a href="#" class="btn btn-primary">Enroll with this course now</a> <span class="enrolled-count">2,928 students enrolled</span></p>
                 </div>
               </div>
             </div>

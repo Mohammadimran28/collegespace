@@ -27,8 +27,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/courses', function () {
-    return view('courses');
+Route::get('/assignment', function () {
+    return view('assignment');
 });
 
 Route::get('/about', function () {
@@ -51,6 +51,7 @@ Route::get('/events', function () {
     return view('events');
 });
 
+<<<<<<< HEAD
 //Route::get('/notes', function () {
    // $notes = Notes::all();
    //echo "<pre>";
@@ -93,6 +94,11 @@ Route::post('/exampaperform-view',[ExampaperController::class,'store'])->name('e
 Route::get('/exampaper/delete/{id}',[ExampaperController::class,'delete'])->name('exampaper.delete');
 Route::get('/exampaper/edit/{id}',[ExampaperController::class,'edit'])->name('exampaper.edit');
 }
+=======
+Route::get('/semester', function () {
+    return view('semester');
+});
+>>>>>>> d712c6d2a43b897ec88d9fc3a6524abdbcfe523e
 
 Route::get('/gallery', function () {
     return view('gallery');
@@ -106,6 +112,7 @@ Route::get('/notes', function () {
     return view('notes');
 });
 
+<<<<<<< HEAD
 Route::get('/syllabus', function () {
     return view('syllabus');
 });
@@ -117,3 +124,12 @@ Route::get('/exampaper', function () {
 Route::get('/timetable', function () {
     return view('timetable');
 });
+=======
+Route::get('/login', function () {
+    return view('auth.login');
+});
+
+Route::get('/test', function () {
+    return view('notestest');
+});
+>>>>>>> d712c6d2a43b897ec88d9fc3a6524abdbcfe523e

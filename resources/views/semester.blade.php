@@ -25,41 +25,25 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h1>Notes Page</h1>
+              <h1 class="sub">Subject Page</h1>
+              <p>Choose Your Subject Notes</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="probootstrap-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="probootstrap-flex-block">
-                <div class="probootstrap-text probootstrap-animate">
-                  <h3>We Provied Certified Notes By Admin</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p>
-                 
-                </div>
-                {{-- <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider_3.jpg)">
-                  <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
-                </div> --}}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
 
 
 
 
 
-      {{-- notes  --}}
+      {{-- subject --}}
 
 
 
-<section>
+<section class="probootstrap-section">
 
 
   <div class="container">
@@ -68,30 +52,24 @@
     <div class="row">
       <div class="col-md-3 col-sm-6">
         <div class="probootstrap-teacher text-center probootstrap-animate">
-          <a href="semester" class="probootstrap-featured-news-box">
-
           <figure class="media">
-            <img src="img/1.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+            <img src="img/books.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
           </figure>
           <div class="text">
     
-            <h3>First Semester
-            </a>
+            <h3>C ++</h3>
             
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
         <div class="probootstrap-teacher text-center probootstrap-animate">
-          <a href="#" class="probootstrap-featured-news-box">
-
           <figure class="media">
-            <img src="img/2.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+            <img src="img/books.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
           </figure>
           <div class="text">
            
-            <h3>Second Semester
-            </a>
+            <h3>Web Technology</h3>
             
           </div>
         </div>
@@ -99,15 +77,12 @@
       <div class="clearfix visible-sm-block visible-xs-block"></div>
       <div class="col-md-3 col-sm-6">
         <div class="probootstrap-teacher text-center probootstrap-animate">
-          <a href="#" class="probootstrap-featured-news-box">
-
           <figure class="media">
-            <img src="img/3.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+            <img src="img/books.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
           </figure>
           <div class="text">
            
-            <h3>Third Semester
-            </a>
+            <h3>Web Technology</h3>
             
           </div>
         </div>
@@ -118,52 +93,54 @@
     <div class="row">
       <div class="col-md-3 col-sm-6">
         <div class="probootstrap-teacher text-center probootstrap-animate">
-          <a href="#" class="probootstrap-featured-news-box">
-
           <figure class="media">
-            <img src="img/4.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+            <img src="img/books.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
           </figure>
           <div class="text">
           
-            <h3>Fourth Semmester
-            </a>
+            <h3>Web Technology</h3>
             
           </div>
         </div>
       </div>
+     
+
       <div class="col-md-3 col-sm-6">
         <div class="probootstrap-teacher text-center probootstrap-animate">
           <a href="#" class="probootstrap-featured-news-box">
-
           <figure class="media">
-            <img src="img/5.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+            <img src="img/books.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
           </figure>
           <div class="text">
            
-            <h3>Five Semester
-            </a>
-         
+            <h3>Web Technology</h3>
+            
+
+
+          </a>
           </div>
         </div>
       </div>
-      <div class="clearfix visible-sm-block visible-xs-block"></div>
+     
       <div class="col-md-3 col-sm-6">
         <div class="probootstrap-teacher text-center probootstrap-animate">
           <a href="#" class="probootstrap-featured-news-box">
-
           <figure class="media">
-            <img src="img/6.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+            <img src="img/books.png" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
           </figure>
           <div class="text">
-          
-            <h3>Six Smester
-            </a>
+           
+            <h3>Web Technology</h3>
             
+
+
+          </a>
           </div>
         </div>
       </div>
 
     </div>
+   
    
   
 </section>
