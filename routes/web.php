@@ -112,7 +112,6 @@ Route::get('/notes', function () {
     return view('notes');
 });
 
-<<<<<<< HEAD
 Route::get('/syllabus', function () {
     return view('syllabus');
 });
@@ -124,12 +123,3 @@ Route::get('/exampaper', function () {
 Route::get('/timetable', function () {
     return view('timetable');
 });
-=======
-Route::get('/login', function () {
-    return view('auth.login');
-});
-
-Route::get('/test', function () {
-    return view('notestest');
-});
->>>>>>> d712c6d2a43b897ec88d9fc3a6524abdbcfe523e
