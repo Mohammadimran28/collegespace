@@ -4,10 +4,10 @@
         <div class="col-md-4">
           <div class="probootstrap-footer-widget">
             <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Porro provident suscipit natus a cupiditate ab minus illum quaerat maxime inventore Ea
-               consequatur consectetur 
-              hic provident dolor ab aliquam eveniet alias</p>
+            <p>College Space is the Academic Portal. It was started out by Mohammad Imran Mansuri  Syyed Rehan ali & Vaibhav Ojha,
+               We aim to make the life of every Student simpler & turn these Three years 
+               into a smoother ride! With supporting
+              </p>
             <h3>Social</h3>
             <ul class="probootstrap-footer-social">
               <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -51,7 +51,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 text-left">
-            <p>&copy; 2022 <a href="#">CollegeSpace</a>. All Rights Reserved. Designed &amp; Developed with <i class="icon icon-heart"></i> 
+            <p>&copy; 2022 <a href="#">CollegeSpace</a>. All Rights Reserved. Designed &amp; Developed with <i class="icon icon-heart"></i> By Team CS 
              </p>
           </div>
           <div class="col-md-4 probootstrap-back-to-top">

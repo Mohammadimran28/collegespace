@@ -62,3 +62,7 @@ Route::get('/notes', function () {
 Route::get('/login', function () {
     return view('auth.login');
 });
+
+Route::get('/test', function () {
+    return view('notestest');
+});
