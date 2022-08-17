@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Notes;
 use Illuminate\Http\Request;
-use Illuminate\Auth\Access\Response;
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\storage;
 
 class NotesController extends Controller
@@ -85,12 +85,12 @@ class NotesController extends Controller
         $notes=Notes::all();
         return view('user-notesview',compact('notes'));
     }
-
-    public function download($notesfile)
+    
+    public function download(Request $request, $notesfile)
     {
         
-        return response()->download(public_path('app\public\uploads\notes'.$notesfile))->
-        header('Content-Type','image/pdf/jpeg/doc/txt');
+        return Response()->view(public_path('public/uploads/notes'.$notesfile));
+        
     }
 
     

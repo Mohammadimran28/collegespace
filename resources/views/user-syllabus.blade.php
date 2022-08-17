@@ -9,6 +9,7 @@
 <body>
     <table border="5">
     <tr>
+        <th>ID</th>
         <th>course</th>
         <th>Semester</th>
         <th>subject</th>
@@ -16,14 +17,15 @@
          
          </tr>
 
-         @foreach ($notes as $notes)
+         @foreach ($syllabus as $syllabus)
 
          <tr>
-                            <td>{{$notes->course}}</td>
-                            <td>{{$notes->semester}}</td>
-                        <td>{{$notes->subject}}</td>
+                            <td>{{$syllabus->id}}</td>
+                            <td>{{$syllabus->course}}</td>
+                            <td>{{$syllabus->semester}}</td>
+                        <td>{{$syllabus->subject}}</td>
                        
-                        <td><a href="{{url('/download{notesfile}', $notes->notesfile)}}" download="{{$notes->notesfile}}">Download</a></td>
+                        <td><a href="{{url('/download{syllabus$syllabusfile}', $syllabus->syllabus$syllabusfile)}}" download="{{$syllabus->syllabus$syllabusfile}}">Download</a></td>
                         </tr>
                         @endforeach
         </table>

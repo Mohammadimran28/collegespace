@@ -105,3 +105,15 @@ Route::get('/course-single', function () {
 Route::get('/notes', function () {
     return view('notes');
 });
+
+Route::get('/syllabus', function () {
+    return view('syllabus');
+});
+
+Route::get('/exampaper', function () {
+    return view('exampaper');
+});
+
+Route::get('/timetable', function () {
+    return view('timetable');
+});

@@ -177,7 +177,7 @@
                   uploaded by admins
 
                   </p>
-                  <p><a href="#" class="btn btn-primary">Syallabus</a></p>
+                  <p><a href="/syllabus" class="btn btn-primary">Syallabus</a></p>
                 </div>
               </div>
 
