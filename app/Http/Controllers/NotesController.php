@@ -89,7 +89,7 @@ class NotesController extends Controller
     public function download(Request $request, $notesfile)
     {
         
-        return Response()->view(public_path('public/uploads/notes'.$notesfile));
+        return Response()->view(public_path('/uploads/notes'.$notesfile));
         
     }
 

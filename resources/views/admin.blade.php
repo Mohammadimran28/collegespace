@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>CollegeSpace Admin</title>
+        <title>Dashboard - SB Admin</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -11744,22 +11744,22 @@ body {
                                 Dashboard
                             </a>
                             <div class="sb-sidenav-menu-heading">Content view</div>
-                            <a class="nav-link collapsed" href="{{route('notes.view')}}" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <a class="nav-link collapsed" href="{{route('notes.view')}}" >
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Notes view
                                 <div class="sb-sidenav-collapse-arrow"></i></div>
                             </a>
-                            <a class="nav-link collapsed" href="{{route('syllabus.view')}}" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <a class="nav-link collapsed" href="{{route('syllabus.view')}}"  >
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                Syllabus view
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <a class="nav-link collapsed" href="{{route('timetable.view')}}" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <a class="nav-link collapsed" href="{{route('timetable.view')}}" >
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Time-table view
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <a class="nav-link collapsed" href="{{route('exampaper.view')}}" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <a class="nav-link collapsed" href="{{route('exampaper.view')}}" >
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Exampaper view
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
