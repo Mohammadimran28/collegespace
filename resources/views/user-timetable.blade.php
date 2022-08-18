@@ -12,19 +12,19 @@
     <tr>
         <th>course</th>
         <th>Semester</th>
-        <th>subject</th>
-        <th>Notes Download</th>
+        <th>date</th>
+        <th>timetable Download</th>
          
          </tr>
 
-         @foreach ($notes as $notes)
+         @foreach ($timetable as $timetable)
 
          <tr>
-                            <td>{{$notes->course}}</td>
-                            <td>{{$notes->semester}}</td>
-                        <td>{{$notes->subject}}</td>
+                            <td>{{$timetable->course}}</td>
+                            <td>{{$timetable->semester}}</td>
+                        <td>{{$timetable->date}}</td>
                        
-                        <td><a href="{{url('/download{notesfile}', $notes->notesfile)}}" download="{{$notes->notesfile}}">Download</a></td>
+                        <td><a href="{{url('/download{timetablefile}', $timetable->timetablefile)}}" download="{{$timetable->timetablefile}}">Download</a></td>
                         </tr>
                         @endforeach
         </table>

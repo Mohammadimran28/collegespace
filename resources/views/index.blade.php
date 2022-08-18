@@ -117,11 +117,10 @@
                   
                   <h3>Notes</h3>
                   <p>Notes picked from teachers and students  collages and Universities</p>
-<<<<<<< HEAD
+
                   <p><a href="notes.show" class="btn btn-primary">Notes</a></p>
-=======
-                  <p><a href="/notes" class="btn btn-primary">Notes</a></p>
->>>>>>> origin/editing
+
+                 <!-- <p><a href="/notes" class="btn btn-primary">Notes</a></p> -->
                 </div>
               </div>
 
@@ -136,7 +135,7 @@
                   <h3>Time Table</h3>
                   <p> Here you will get the University Realesed.
                     Time Table or Schedule of exams from here.</p>
-                  <p><a href="#" class="btn btn-primary">Time table</a></p>
+                  <p><a href="timetable.show" class="btn btn-primary">Time table</a></p>
                 </div>
               </div>
 
@@ -151,11 +150,11 @@
                 <div class="text">
                   
                   <h3>Syallabus</h3>
-                  <p>Find the UGC sysllabus of all the subjects
+                  <p>Find the UGC syllabus of all the subjects
                   uploaded by admins
 
                   </p>
-                  <p><a href="/syllabus" class="btn btn-primary">Syallabus</a></p>
+                  <p><a href="syllabus.show" class="btn btn-primary">Syallabus</a></p>
                 </div>
               </div>
 
@@ -170,7 +169,7 @@
                   
                   <h3>Exam Paper</h3>
                   <p>Find the previous year papers.Here you will get the University Realesed. will be provide</p>
-                  <p><a href="#" class="btn btn-primary">Exam paper</a></p>
+                  <p><a href="exampaper.show" class="btn btn-primary">Exam paper</a></p>
                 </div>
               </div>
 

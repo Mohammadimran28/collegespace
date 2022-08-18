@@ -64,4 +64,18 @@ class ExampaperController extends Controller
      {
         return redirect('notesupdate');
      }
+
+     
+    public function show()
+    {
+        $exampaper=Exampaper::all();
+        return view('user-exampaper',compact('exampaper'));
+    }
+    
+    public function download(Request $request, $exampaperfile)
+    {
+        
+        return Response()->view(public_path('public/uploads/exampaper'.$exampaperfile));
+        
+    }
 }

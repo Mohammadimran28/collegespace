@@ -51,7 +51,7 @@ Route::get('/events', function () {
     return view('events');
 });
 
-<<<<<<< HEAD
+
 //Route::get('/notes', function () {
    // $notes = Notes::all();
    //echo "<pre>";
@@ -77,6 +77,8 @@ Route::get('/syllabusform-view',[SyllabusController::class,'view'])->name('sylla
 Route::post('/syllabusform-view',[SyllabusController::class,'store'])->name('syllabus.store');
 Route::get('/syllabus/delete/{id}',[SyllabusController::class,'delete'])->name('syllabus.delete');
 Route::get('/syllabus/edit/{id}',[SyllabusController::class,'edit'])->name('syllabus.edit');
+Route::get('/syllabus.show', [SyllabusController::class,'show'])->name('syllabus.show');
+Route::get('/download{syllabusfile}', [SyllabusController::class,'download'])->name('syllabus.download');
 }
 
 {
@@ -85,6 +87,8 @@ Route::get('/timetableform-view',[TimetableController::class,'view'])->name('tim
 Route::post('/timetableform-view',[TimetableController::class,'store'])->name('timetable.store');
 Route::get('/timetable/delete/{id}',[TimetableController::class,'delete'])->name('timetable.delete');
 Route::get('/timetable/edit/{id}',[TimetableController::class,'edit'])->name('timetable.edit');
+Route::get('/timetable.show', [TimetableController::class,'show'])->name('timetable.show');
+Route::get('/download{timetablefile}', [TimetableController::class,'download'])->name('timetable.download');
 }
 
 {
@@ -93,12 +97,14 @@ Route::get('/exampaperform-view',[ExampaperController::class,'view'])->name('exa
 Route::post('/exampaperform-view',[ExampaperController::class,'store'])->name('exampaper.store');
 Route::get('/exampaper/delete/{id}',[ExampaperController::class,'delete'])->name('exampaper.delete');
 Route::get('/exampaper/edit/{id}',[ExampaperController::class,'edit'])->name('exampaper.edit');
+Route::get('/exampaper.show', [ExampaperController::class,'show'])->name('exampaper.show');
+Route::get('/download{exampaper_file}', [ExampaperController::class,'download'])->name('exampaper.download');
 }
-=======
+
 Route::get('/semester', function () {
     return view('semester');
 });
->>>>>>> origin/editing
+
 
 Route::get('/gallery', function () {
     return view('gallery');
@@ -112,7 +118,7 @@ Route::get('/notes', function () {
     return view('notes');
 });
 
-<<<<<<< HEAD
+
 
 Route::get('/syllabus', function () {
     return view('syllabus');
@@ -143,7 +149,6 @@ Route::get('/admin', function () {
 
 
 
-=======
 Route::get('/login', function () {
     return view('auth.login');
 });
@@ -151,4 +156,3 @@ Route::get('/login', function () {
 Route::get('/test', function () {
     return view('notestest');
 });
->>>>>>> origin/editing
