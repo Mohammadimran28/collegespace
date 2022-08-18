@@ -4,7 +4,7 @@
         <div class="col-md-4">
           <div class="probootstrap-footer-widget">
             <h3>About Us</h3>
-            <p>College Space is the Academic Portal. It was started out by Mohammad Imran Mansuri  Syyed Rehan ali & Vaibhav Ojha,
+            <p>College Space is the Academic Portal. It was started out by Mohammad Imran Mansuri ,Syyed Rehan ali & Vaibhav Ojha,
                We aim to make the life of every Student simpler & turn these Three years 
                into a smoother ride! With supporting
               </p>

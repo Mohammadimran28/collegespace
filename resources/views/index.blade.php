@@ -86,7 +86,7 @@
                  
                 </div>
                  <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/col3.jpg)">
-                  <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
+                  <a href="https://vimeo.com/297811956" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
                 </div>
               </div>
             </div>
@@ -120,12 +120,6 @@
 
 
                   <p><a href="notes.show" class="btn btn-primary">Notes</a></p>
-
-                 <!-- <p><a href="/notes" class="btn btn-primary">Notes</a></p> -->
-
-                  <p><a href="notes.show" class="btn btn-primary">Notes</a></p>
-
-                  <p><a href="/notes" class="btn btn-primary">Notes</a></p>
 
                 </div>
               </div>
@@ -273,7 +267,7 @@
 
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/person_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
+                      <img src="img\dp\dp8.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
                     </figure>
                     <blockquote class="quote">&ldquo;All notes were easy to read, and I found the homework challenging, but not impossible. I enjoyed researching! Very good. Lots of feedback!&rdquo; <cite class="author"> &mdash; <span>Mohit</span></cite></blockquote>
                   </div>
@@ -282,7 +276,7 @@
                 <div class="item">
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/person_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
+                      <img src="img\dp\dp2.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
                     </figure>
                     <blockquote class="quote">&ldquo;be honest you cannot beat the services or the people that I have dealt with. I loved the business management course. I rely on what I have learnt in my course often.&rdquo; <cite class="author"> &mdash;<span> Ramesh</span></cite></blockquote>
                   </div>
@@ -290,7 +284,7 @@
                 <div class="item">
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/person_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
+                      <img src="img\dp\dp5.jpg" alt="Free Bootstrap Template by ProBootstrap.com">
                     </figure>
                     <blockquote class="quote">&ldquo;I would like to thank you for the helpful guidance pro
                       vided by the tutorial department. I am happy with my tutor who is very efficient and s

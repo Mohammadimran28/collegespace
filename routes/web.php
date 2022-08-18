@@ -106,9 +106,7 @@ Route::get('/semester', function () {
 });
 
 
-Route::get('/semester', function () {
-    return view('semester');
-});
+
 
 
 Route::get('/gallery', function () {
