@@ -10,8 +10,8 @@
               </p>
             <h3>Social</h3>
             <ul class="probootstrap-footer-social">
-              <li><a href="#"><i class="icon-twitter"></i></a></li>
-              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              
+             
               <li><a href="#"><i class="icon-github"></i></a></li>
               <li><a href="#"><i class="icon-dribbble"></i></a></li>
               <li><a href="#"><i class="icon-linkedin"></i></a></li>
