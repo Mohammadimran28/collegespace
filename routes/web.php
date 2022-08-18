@@ -51,7 +51,11 @@ Route::get('/events', function () {
     return view('events');
 });
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 005278b320e54c8be419b765b15d5ff4af7b5905
 //Route::get('/notes', function () {
    // $notes = Notes::all();
    //echo "<pre>";
@@ -100,11 +104,19 @@ Route::get('/exampaper/edit/{id}',[ExampaperController::class,'edit'])->name('ex
 Route::get('/exampaper.show', [ExampaperController::class,'show'])->name('exampaper.show');
 Route::get('/download{exampaper_file}', [ExampaperController::class,'download'])->name('exampaper.download');
 }
+<<<<<<< HEAD
 
 Route::get('/semester', function () {
     return view('semester');
 });
 
+=======
+=======
+Route::get('/semester', function () {
+    return view('semester');
+});
+>>>>>>> d712c6d2a43b897ec88d9fc3a6524abdbcfe523e
+>>>>>>> 005278b320e54c8be419b765b15d5ff4af7b5905
 
 Route::get('/gallery', function () {
     return view('gallery');
@@ -118,8 +130,11 @@ Route::get('/notes', function () {
     return view('notes');
 });
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 005278b320e54c8be419b765b15d5ff4af7b5905
 Route::get('/syllabus', function () {
     return view('syllabus');
 });
@@ -131,6 +146,7 @@ Route::get('/exampaper', function () {
 Route::get('/timetable', function () {
     return view('timetable');
 });
+<<<<<<< HEAD
 
 
 
@@ -156,3 +172,5 @@ Route::get('/login', function () {
 Route::get('/test', function () {
     return view('notestest');
 });
+=======
+>>>>>>> 005278b320e54c8be419b765b15d5ff4af7b5905
