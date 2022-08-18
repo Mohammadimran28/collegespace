@@ -121,12 +121,6 @@
 
                   <p><a href="notes.show" class="btn btn-primary">Notes</a></p>
 
-                 <!-- <p><a href="/notes" class="btn btn-primary">Notes</a></p> -->
-
-                  <p><a href="notes.show" class="btn btn-primary">Notes</a></p>
-
-                  <p><a href="/notes" class="btn btn-primary">Notes</a></p>
-
                 </div>
               </div>
 
