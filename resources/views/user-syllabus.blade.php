@@ -17,7 +17,7 @@
     </style>
 </head>
 <body>
-<div>
+    <div>
       @include('layout.navbar')
     </div>
     <table class ="table text-center" border="4">
