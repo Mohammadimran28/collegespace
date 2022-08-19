@@ -67,7 +67,7 @@ Route::get('/notes/delete/{id}',[NotesController::class,'delete'])->name('notes.
 Route::get('/notes/edit/{id}',[NotesController::class,'edit'])->name('notes.edit');
 Route::get('/notes/update/{id}',[NotesController::class,'update'])->name('notes.update');
 Route::get('/notes.show', [NotesController::class,'show'])->name('notes.show');
-Route::get('/download{notesfile}', [NotesController::class,'download'])->name('notes.download');
+Route::get('/download/{file}', [NotesController::class,'download'])->name('notes.download');
 //Route::post('/get/{fileNam}', [NotesController::class,'get'])->name('notes.get');
 }
 
