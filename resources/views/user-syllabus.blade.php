@@ -20,6 +20,10 @@
     <div>
       @include('layout.navbar')
     </div>
+    <div class="col-md-6 col-md-offset-3 text-center section-heading">
+      <h2>Download Syllabus</h2>
+      <p class="lead">In this section students can download Syllabus of their related branches.<br> All Those notes picked from teachers and students from respected collages and Universities.</p>
+  </div>
     <table class ="table text-center" border="4">
     <tr>
         

@@ -191,9 +191,9 @@
                 </div>
                 <div class="probootstrap-text">
                   <span class="probootstrap-counter">
-                    <span class="js-counter" data-from="0" data-to="20203" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="js-counter" data-from="0" data-to="103" data-speed="5000" data-refresh-interval="50">1</span>
                   </span>
-                  <span class="probootstrap-counter-label">Students Enrolled</span>
+                  <span class="probootstrap-counter-label">Number Of User</span>
                 </div>
               </div>
             </div>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="probootstrap-text">
                   <span class="probootstrap-counter">
-                    <span class="js-counter" data-from="0" data-to="139" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="js-counter" data-from="0" data-to="20" data-speed="5000" data-refresh-interval="50">1</span>
                   </span>
                   <span class="probootstrap-counter-label">Certified Teachers</span>
                 </div>
@@ -218,9 +218,9 @@
                 </div>
                 <div class="probootstrap-text">
                   <span class="probootstrap-counter">
-                    <span class="js-counter" data-from="0" data-to="99" data-speed="5000" data-refresh-interval="50">1</span>%
+                    <span class="js-counter" data-from="0" data-to="80" data-speed="5000" data-refresh-interval="50">1</span>%
                   </span>
-                  <span class="probootstrap-counter-label">Passing to Universities</span>
+                  <span class="probootstrap-counter-label">Student retention</span>
                 </div>
               </div>
             </div>
@@ -234,7 +234,7 @@
                   <span class="probootstrap-counter">
                     <span class="js-counter" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50">1</span>%
                   </span>
-                  <span class="probootstrap-counter-label">Parents Satisfaction</span>
+                  <span class="probootstrap-counter-label">Student Satisfaction</span>
                 </div>
               </div>
             </div>
@@ -256,7 +256,7 @@
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
               <h2>Student Reviews</h2>
-              <p class="lead">Loved every minue studying and gained great knowledge. Looking forward to life as a life coach and being part of changing lives for the better.</p>
+              <p class="lead">Feedback is about listening actively, taking the time to analyze, and then thinking of the best possible solution to perform better</p>
             </div>
           </div>
           <!-- END row -->
