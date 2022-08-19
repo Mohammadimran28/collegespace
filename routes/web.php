@@ -51,11 +51,7 @@ Route::get('/events', function () {
     return view('events');
 });
 
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
->>>>>>> e67275be0b50f806e991dff451c5f1ac24384a31
 //Route::get('/notes', function () {
    // $notes = Notes::all();
    //echo "<pre>";
@@ -104,7 +100,12 @@ Route::get('/exampaper/edit/{id}',[ExampaperController::class,'edit'])->name('ex
 Route::get('/exampaper.show', [ExampaperController::class,'show'])->name('exampaper.show');
 Route::get('/download{exampaper_file}', [ExampaperController::class,'download'])->name('exampaper.download');
 }
-<<<<<<< HEAD
+
+
+Route::get('/semester', function () {
+    return view('semester');
+});
+
 
 Route::get('/semester', function () {
     return view('semester');
@@ -114,14 +115,6 @@ Route::get('/semester', function () {
 Route::get('/semester', function () {
     return view('semester');
 });
-
-=======
-=======
-Route::get('/semester', function () {
-    return view('semester');
-});
->>>>>>> editing
->>>>>>> e67275be0b50f806e991dff451c5f1ac24384a31
 
 Route::get('/gallery', function () {
     return view('gallery');
@@ -139,7 +132,7 @@ Route::get('/notes', function () {
 
 
 
-<<<<<<< HEAD
+
 Route::get('/syllabus', function () {
     return view('syllabus');
 });
@@ -161,9 +154,7 @@ Route::get('/login', function () {
 
 
 
-=======
-// Admin
->>>>>>> e67275be0b50f806e991dff451c5f1ac24384a31
+
 
 Route::get('/admin', function () {
     return view('admin');
@@ -172,7 +163,7 @@ Route::get('/admin', function () {
 
 
 
-<<<<<<< HEAD
+
 
 Route::get('/login', function () {
     return view('auth.login');
@@ -182,10 +173,8 @@ Route::get('/test', function () {
     return view('notestest');
 });
 
-=======
-=======
+
 Route::get('/login', function () {
     return view('auth.login');
 });
->>>>>>> editing
->>>>>>> e67275be0b50f806e991dff451c5f1ac24384a31
+
