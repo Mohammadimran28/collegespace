@@ -28,7 +28,7 @@ body {
 	margin: -20px 0 50px;
 }
 
-h1 {
+h1 {color:black;
 	font-weight: bold;
 	margin: 0;
 }
@@ -176,7 +176,7 @@ input {
 .overlay {
 	background: #FF416C;
 	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #3321ec, #115ce4);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -224,7 +224,7 @@ input {
 }
 
 .overlay-right {
-    color:blue;
+	color: #ebebf7;
 	right: 0;
 	transform: translateX(0);
 }
