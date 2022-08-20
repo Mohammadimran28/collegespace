@@ -22,7 +22,7 @@ class NotesController extends Controller
         $notes->semester = $request['semester'];
         $notes->subject = $request['subject'];
         $fileName = $request->file('notesfile')->getClientOriginalName();
-        $fileName = $request->file('notesfile')->storeAs('public/uploads/notes',$fileName);
+        $fileName = $request->file('notesfile')->storeAs('app/public/uploads/notes',$fileName);
         $notes->notesfile = $fileName;
         $notes->save();
         return redirect('/notesform/view')->with(['success'=>'saved sucessfully!!']);
@@ -76,7 +76,7 @@ class NotesController extends Controller
     }
     
 
-
+    //download/app/public/uploads/notes/bb.jpg
 
 
     
@@ -86,12 +86,13 @@ class NotesController extends Controller
         return view('user-notesview',compact('notes'));
     }
     
-    public function download(Request $request, $notesfile)
+    public function download(Request $request, $notes)
     {
-        
-        return Response()->view(public_path('/uploads/notes'.$notesfile));
+      
+        return Response()->download(public_path('bb.jpg'.$notes));
         
     }
+
 
     
 
