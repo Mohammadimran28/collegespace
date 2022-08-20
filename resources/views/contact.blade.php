@@ -44,9 +44,9 @@
                     <h3>Pages</h3>
                     <ul class="probootstrap-side-menu">
                       
-                      <li><a href="/indexl">Home</a></li>
+                      <li><a href="/index">Home</a></li>
                       <li><a href="/courses">Courses</a></li>
-                      <li><a href="/teachers">Teachers</a></li>
+                
                       <li><a href="/events">Events</a></li>
                       <li><a href="/about">About Us</a></li>
                       <li><a href="/contact">Contact Us</a></li>

@@ -50,7 +50,7 @@ span {
 }
 
 a {
-	color: #333;
+	color: white;
 	font-size: 14px;
 	text-decoration: none;
 	margin: 15px 0;
@@ -59,7 +59,7 @@ a {
 button {
 	border-radius: 20px;
 	border: 2px solid #2b2b2e;;
-	background-color: #3010f2;
+	background-color: #18900d;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -276,7 +276,7 @@ footer a {
 
 .overlay-panel overlay-left{
 
-    color:blue;
+    color:#18900d;
 }
 
     </style>

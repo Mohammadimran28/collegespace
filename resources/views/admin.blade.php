@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-<<<<<<< HEAD
+
         <title> Dashboard </title>
-=======
+
         <title>Dashboard - SB Admin</title>
->>>>>>> e67275be0b50f806e991dff451c5f1ac24384a31
+
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
