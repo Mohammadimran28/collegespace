@@ -76,7 +76,7 @@ class NotesController extends Controller
     }
     
 
-
+    //download/app/public/uploads/notes/bb.jpg
 
 
     
@@ -88,10 +88,11 @@ class NotesController extends Controller
     
     public function download(Request $request, $notes)
     {
-        
-        return Response()->download(public_path('app/public/uploads/notes'.$notes));
+      
+        return Response()->download(public_path('bb.jpg'.$notes));
         
     }
+
 
     
 

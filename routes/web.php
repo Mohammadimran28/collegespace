@@ -68,6 +68,7 @@ Route::get('/notes/edit/{id}',[NotesController::class,'edit'])->name('notes.edit
 Route::get('/notes/update/{id}',[NotesController::class,'update'])->name('notes.update');
 Route::get('/notes.show', [NotesController::class,'show'])->name('notes.show');
 Route::get('/download/{file}', [NotesController::class,'download'])->name('notes.download');
+Route::get('/admin', [NotesController::class,'admin'])->name('admin.showcase');
 //Route::post('/get/{fileNam}', [NotesController::class,'get'])->name('notes.get');
 }
 
@@ -79,6 +80,7 @@ Route::get('/syllabus/delete/{id}',[SyllabusController::class,'delete'])->name('
 Route::get('/syllabus/edit/{id}',[SyllabusController::class,'edit'])->name('syllabus.edit');
 Route::get('/syllabus.show', [SyllabusController::class,'show'])->name('syllabus.show');
 Route::get('/download{syllabusfile}', [SyllabusController::class,'download'])->name('syllabus.download');
+
 }
 
 {
@@ -148,9 +150,6 @@ Route::get('/timetable', function () {
 
 
 
-Route::get('/login', function () {
-    return view('login');
-});
 
 
 
@@ -165,9 +164,7 @@ Route::get('/admin', function () {
 
 
 
-Route::get('/login', function () {
-    return view('auth.login');
-});
+
 
 Route::get('/test', function () {
     return view('notestest');
@@ -175,6 +172,6 @@ Route::get('/test', function () {
 
 
 Route::get('/login', function () {
-    return view('auth.login');
+    return view('login');
 });
 

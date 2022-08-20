@@ -117,18 +117,14 @@
                   
                   <h3>Notes</h3>
                   <p>Notes picked from teachers and students  collages and Universities</p>
-<<<<<<< HEAD
+
 
 
                   <p><a href="notes.show" class="btn btn-primary">Notes</a></p>
 
-=======
-<<<<<<< HEAD
+
                  
-=======
-                  <p><a href="/notes" class="btn btn-primary">Notes</a></p>
->>>>>>> editing
->>>>>>> e67275be0b50f806e991dff451c5f1ac24384a31
+
                 </div>
               </div>
 
