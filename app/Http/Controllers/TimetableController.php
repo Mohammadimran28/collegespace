@@ -62,4 +62,18 @@ class TimetableController extends Controller
      {
         return redirect('notesupdate');
      }
+
+     
+    public function show()
+    {
+        $timetable=Timetable::all();
+        return view('user-timetable',compact('timetable'));
+    }
+    
+    public function download(Request $request, $timetablefile)
+    {
+        
+        return Response()->view(public_path('public/uploads/timetable'.$timetablefile));
+        
+    }
 }

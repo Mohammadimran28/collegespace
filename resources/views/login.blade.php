@@ -284,7 +284,7 @@ footer a {
 <body>
     
 
-<h2>Wellcome to Admin Panel</h2>
+<h2>Welcome to Admin Panel</h2>
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
 		<form action="#">
@@ -296,8 +296,8 @@ footer a {
 			</div>
 			<span>or use your email for registration</span>
 			<input type="text" placeholder="Name" />
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
+			<input type="text" placeholder="Username" value="collegespaceid" />
+			<input type="password" placeholder="Password" password="1234"/>
 			<button>Sign Up</button>
 		</form>
 	</div>
@@ -306,10 +306,10 @@ footer a {
 			<h1>CollegeSpace</h1>
 			
 			<span>or use your account</span>
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<a href="#">Forgot your password?</a>
-			<button>Sign In</button>
+			
+			<input type="text" placeholder="Username" value="collegespaceid" />
+			<input type="password" placeholder="Password" password="1234"/>
+			<button><a href="{{url('/admin')}}">Sign In</a></button>
 		</form>
 	</div>
 	<div class="overlay-container">

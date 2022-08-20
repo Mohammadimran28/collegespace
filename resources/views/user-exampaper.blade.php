@@ -25,19 +25,23 @@
     <tr>
         <th>course</th>
         <th>Semester</th>
+        <th>year</th>
         <th>subject</th>
-        <th>Notes Download</th>
+        <th>Paper code</th>
+        <th>Exam-paper Download</th>
          
          </tr>
 
-         @foreach ($notes as $notes)
+         @foreach ($exampaper as $exampaper)
 
          <tr>
-                            <td>{{$notes->course}}</td>
-                            <td>{{$notes->semester}}</td>
-                        <td>{{$notes->subject}}</td>
+                            <td>{{$exampaper->course}}</td>
+                            <td>{{$exampaper->semester}}</td>
+                            <td>{{$exampaper->year}}</td>
+                        <td>{{$exampaper->subject}}</td>
+                        <td>{{$exampaper->paper_Code}}</td>
                        
-                        <td><a href="{{route('notes.download', $notes->notesfile)}}" >Download</a></td>
+                        <td><a href="{{url('/download{exampaper_file}', $exampaper->exampaper_file)}}" download="{{$exampaper->exampaper_file}}">Download</a></td>
                         </tr>
                         @endforeach
         </table>

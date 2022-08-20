@@ -63,4 +63,18 @@ class SyllabusController extends Controller
      {
         return redirect('notesupdate');
      }
+
+     public function show()
+    {
+        $syllabus=Syllabus::all();
+        return view('user-syllabus',compact('syllabus'));
+    }
+
+    
+    public function download(Request $request, $syllabusfile)
+    {
+        
+        return Response()->view(public_path('public/uploads/syllabus'.$syllabusfile));
+        
+    }
 }

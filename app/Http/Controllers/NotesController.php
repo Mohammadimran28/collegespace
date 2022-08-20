@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Notes;
 use Illuminate\Http\Request;
-use Illuminate\Auth\Access\Response;
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\storage;
 
 class NotesController extends Controller
@@ -22,7 +22,7 @@ class NotesController extends Controller
         $notes->semester = $request['semester'];
         $notes->subject = $request['subject'];
         $fileName = $request->file('notesfile')->getClientOriginalName();
-        $fileName = $request->file('notesfile')->storeAs('public/uploads/notes',$fileName);
+        $fileName = $request->file('notesfile')->storeAs('app/public/uploads/notes',$fileName);
         $notes->notesfile = $fileName;
         $notes->save();
         return redirect('/notesform/view')->with(['success'=>'saved sucessfully!!']);
@@ -76,7 +76,7 @@ class NotesController extends Controller
     }
     
 
-
+    //download/app/public/uploads/notes/bb.jpg
 
 
     
@@ -85,13 +85,14 @@ class NotesController extends Controller
         $notes=Notes::all();
         return view('user-notesview',compact('notes'));
     }
-
-    public function download($notesfile)
+    
+    public function download(Request $request, $notes)
     {
+      
+        return Response()->download(public_path('bb.jpg'.$notes));
         
-        return response()->download(public_path('app\public\uploads\notes'.$notesfile))->
-        header('Content-Type','image/pdf/jpeg/doc/txt');
     }
+
 
     
 
