@@ -16,6 +16,7 @@
         content:"*";
         color: red;}
     </style>
+    <div>@include('layout.header')</div>
 </head>
 <body class="bg-dark">
 <form action="{{route('notes.store')}}" method="post" enctype="multipart/form-data">

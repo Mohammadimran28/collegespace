@@ -123,9 +123,7 @@ Route::get('/semester', function () {
 });
 
 
-Route::get('/semester', function () {
-    return view('semester');
-});
+
 
 
 Route::get('/semester', function () {

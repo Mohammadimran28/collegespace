@@ -1,6 +1,6 @@
 <body>
   
-  <nav class="navbar navbar-default probootstrap-navbar">
+  <nav class=" navbar navbar-default probootstrap-navbar ">
     <div class="container">
       <div class="navbar-header">
         
@@ -13,7 +13,7 @@
         <a class="navbar-brand" href="/index" title="collegespace">COLLEGESPACE</a>
       </div>
 
-      <div id="navbar-collapse" class="navbar-collapse collapse">
+      <div id="navbar-collapse" class="navbar-collapse collapse" >
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="/index">Home</a></li>
           <li><a href="/assignment">Assignment</a></li>
