@@ -41,7 +41,7 @@
                         <td>{{$exampaper->subject}}</td>
                         <td>{{$exampaper->paper_Code}}</td>
                        
-                        <td><a href="{{url('/download{exampaper_file}', $exampaper->exampaper_file)}}" download="{{$exampaper->exampaper_file}}">Download</a></td>
+                        <td><a href="{{url('/download', $exampaper->exampaper_file)}}" >Download</a></td>
                         </tr>
                         @endforeach
         </table>

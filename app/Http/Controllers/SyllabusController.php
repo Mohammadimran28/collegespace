@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Syllabus;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Stroage;
 
 class SyllabusController extends Controller
 {
@@ -21,7 +22,7 @@ class SyllabusController extends Controller
         $syllabus->semester = $request['semester'];
         $syllabus->subject = $request['subject'];
         $fileName = $request->file('syllabusfile')->getClientOriginalName();
-        $fileName = $request->file('syllabusfile')->storeAs('public/uploads/syllabus',$fileName);
+        $fileName = $request->file('syllabusfile')->move('assets',$fileName);
         $syllabus->syllabusfile = $fileName;
         $syllabus->save();
         return redirect('/syllabusform-view')->with(['success'=>'saved sucessfully!!']);
@@ -74,7 +75,7 @@ class SyllabusController extends Controller
     public function download(Request $request, $syllabusfile)
     {
         
-        return Response()->view(public_path('public/uploads/syllabus'.$syllabusfile));
+        return Response()->view(public_path('/'.$syllabusfile));
         
     }
 }

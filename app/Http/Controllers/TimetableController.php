@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Timetable;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Stroage;
 
 class TimetableController extends Controller
 {
@@ -20,7 +21,7 @@ class TimetableController extends Controller
         $timetable->semester = $request['semester'];
         $timetable->date = $request['date'];
         $fileName = $request->file('timetablefile')->getClientOriginalName();
-        $fileName = $request->file('timetablefile')->storeAs('public/uploads/timetable',$fileName);
+        $fileName = $request->file('timetablefile')->move('assets',$fileName);
         $timetable->timetablefile = $fileName;
         $timetable->save();
         return redirect('/timetableform-view')->with(['success'=>'saved sucessfully!!']);
@@ -73,7 +74,7 @@ class TimetableController extends Controller
     public function download(Request $request, $timetablefile)
     {
         
-        return Response()->view(public_path('public/uploads/timetable'.$timetablefile));
+        return Response()->view(public_path('/'.$timetablefile));
         
     }
 }

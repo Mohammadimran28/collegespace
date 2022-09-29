@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\Notes;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Illuminate\Support\Facades\storage;
+use Illuminate\Support\Facades\Stroage;
 
 class NotesController extends Controller
 {
@@ -22,7 +22,7 @@ class NotesController extends Controller
         $notes->semester = $request['semester'];
         $notes->subject = $request['subject'];
         $fileName = $request->file('notesfile')->getClientOriginalName();
-        $fileName = $request->file('notesfile')->storeAs('app/public/uploads/notes',$fileName);
+        $fileName = $request->file('notesfile')->move('assets',$fileName);
         $notes->notesfile = $fileName;
         $notes->save();
         return redirect('/notesform/view')->with(['success'=>'saved sucessfully!!']);
@@ -89,7 +89,7 @@ class NotesController extends Controller
     public function download(Request $request, $notes)
     {
       
-        return Response()->download(public_path('bb.jpg'.$notes));
+        return Response()->download(public_path('/'.$notes));
         
     }
 

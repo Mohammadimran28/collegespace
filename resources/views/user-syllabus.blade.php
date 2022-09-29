@@ -38,7 +38,7 @@
                             <td>{{$syllabus->semester}}</td>
                         <td>{{$syllabus->subject}}</td>
                        
-                        <td><a href="{{url('/download{syllabusfile}', $syllabus->syllabusfile)}}" download="{{$syllabus->syllabusfile}}">Download </a></td>
+                        <td><a href="{{url('/download', $syllabus->syllabusfile)}}" >Download </a></td>
                         </tr>
                         @endforeach
         </table>

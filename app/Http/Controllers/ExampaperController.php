@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Exampaper;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Stroage;
 
 class ExampaperController extends Controller
 {
@@ -22,7 +23,7 @@ class ExampaperController extends Controller
         $exampaper->subject = $request['subject'];
         $exampaper->paper_Code = $request['paper_Code'];
         $fileName = $request->file('exampaper_file')->getClientOriginalName();
-        $fileName = $request->file('exampaper_file')->storeAs('public/uploads/exampaper',$fileName);
+        $fileName = $request->file('exampaper_file')->move('assets',$fileName);
         $exampaper->exampaper_file = $fileName;
         $exampaper->save();
         return redirect('/exampaperform-view')->with(['success'=>'saved sucessfully!!']);
@@ -75,7 +76,7 @@ class ExampaperController extends Controller
     public function download(Request $request, $exampaperfile)
     {
         
-        return Response()->view(public_path('public/uploads/exampaper'.$exampaperfile));
+        return Response()->view(public_path('/'.$exampaperfile));
         
     }
 }

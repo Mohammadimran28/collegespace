@@ -38,7 +38,7 @@
                             <td>{{$timetable->semester}}</td>
                         <td>{{$timetable->date}}</td>
                        
-                        <td><a href="{{url('/download{timetablefile}', $timetable->timetablefile)}}" download="{{$timetable->timetablefile}}">Download</a></td>
+                        <td><a href="{{url('/download', $timetable->timetablefile)}}" >Download</a></td>
                         </tr>
                         @endforeach
         </table>

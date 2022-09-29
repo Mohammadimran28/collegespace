@@ -37,7 +37,7 @@
                             <td>{{$notes->semester}}</td>
                         <td>{{$notes->subject}}</td>
                        
-                        <td><a href="{{route('notes.download', $notes->notesfile)}}" >Download</a></td>
+                        <td><a href="{{url('/download', $notes->notesfile)}}" >Download</a></td>
                         </tr>
                         @endforeach
         </table>
